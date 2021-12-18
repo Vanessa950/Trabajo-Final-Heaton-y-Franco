@@ -1,0 +1,500 @@
+---
+title: "Trabajo Final"
+author: "Alexandra Heaton"
+date: "11/29/2021"
+output: rmdformats::readthedown
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+```{r}
+library(rmdformats)
+```
+
+# **Introducción**
+
+
+La desigualdad de género es un problema latente aún en pleno siglo XXI. El informe “The Global Gender Gap Index 2020”, de World Economic Forum, reveló que aún faltarían 199.5 años para que el mundo sea una sociedad más paritaria. Asimismo, se puede evidenciar que la búsqueda por cerrar estas brechas se da de manera homogénea en el globo terráqueo, y por tanto, muchos grupos de mujeres -en la actualidad- aún se ven en situaciones de desventaja a comparación de los hombres.
+
+Sin duda, existen muchos factores que se relacionan con la desigualdad de género, por ejemplo: factores culturales o religiosos, económicos o sociales; empero, en el presente trabajo queremos centrarnos en la investigación de factores políticos. Por ello, buscamos averiguar la relación entre desigualdad de género y regímenes políticos no democráticos. En ese sentido, nuestra idea es que aquellos países que poseen una política inestable (constantes crisis políticas, conflictos armados, etc.), con bajos niveles de desarrollo humano y poca cultura democrática van a tender a relegar y subordinar a las mujeres en sus sociedades. En consiguiente, podríamos decir que aquellas sociedades con carácteres autoritarios y bajos niveles desarrollo (ejem: países de Medio Oriente y África) no tienen como prioridad próxima las disparidades entre los ciudadanos y ciudadanas de sus Estados. 
+
+La relevancia de la investigación sobre esta problemática radica en la urgencia de identificar condiciones de riesgo sobre los derechos de las mujeres, los cuales aún no están garantizados en todos los países del mundo. De esta manera, consideramos que determinados contextos y tipos de gobiernos son más propensos a desarrollar actitudes y prácticas que atenten los derechos y socaven los avances de igualdad de género en el mundo. Por ello, es importante identificar qué escenarios políticos dan pie a una mayor vulneración para que, de esta manera, se pueda tomar consciencia y tomar las acciones necesarias para hacer frente a esta problemática.
+
+
+
+
+# **Revisión de la literatura y objetivos**
+
+
+
+Según un informe de la BBC Mundo (2016), las regiones del mundo donde se pueden evidenciar los mayores índices de desigualdad de género son las zonas de Asia Meridional, África Sub-sahariana y del Norte, Oriente Medio y América Latina y el Caribe. Empero, los niveles de este tipo de disparidad al mismo tiempo varían dependiendo del país y del tipo de Estado en el que una mujer habita. De hecho, muchos autores concuerdan que los regímenes democráticos tienden a poseer mayores grados de igualdad entre mujeres y hombres puesto que dentro de sus valores y principios se tiene muy presente el tema de la “igualdad”. Asimismo, la concepción de igualdad entre ciudadanos termina siendo un signo de una buena calidad de democracia, por tanto, este tipo de regímenes tiene como sus principales objetivos velar por el cierre de brechas sociales de todo tipo (Sahui, 2015).  
+
+Si bien a finales del siglo XX, con la tercera ola democratizadora, muchos Estados dan una transición a esta forma de gobierno; hubieron algunos países que decidieron prescindir de este cambio y mantener los regímenes autoritarios o dictatoriales ya instalados (Mukhopadhyay, 2007). La cuestión es que este segundo tipo de regímenes políticos, causa gran preocupación a nivel académico y social, debido a que se  caracteriza por la violencia, coerción, privación de la libertad, de derechos humanos y poseer poca participación ciudadana debido a la relación tan vertical y alejada entre Estado-ciudadano. Ergo, es casi imposible pensar que en este tipo de Estados se busca velar realmente por la integridad de sus habitantes. Por el contrario, aquel agente que debería de brindar seguridad y oportunidades (Estado) se vuelve, en muchos casos, el peor enemigo del ciudadano.
+
+Ahora bien, uniendo el tema de desigualdad de género y regímenes autoritarios, investigadoras como Caprioli (2000) consideran que existe una correlación entre desigualdad de género con Estados que poseen las siguientes características: bajos niveles de paz internacional, es decir: se encuentran en constantes conflictos bélicos o diplomáticos; malas relaciones con sus países vecinos; y poco cumplidores con las normas/leyes establecidos en los tratados internacionales que han firmado. Asimismo, autoras como Wood y Martinez (2018) destacan que existe una fuerte relación entre las actitudes estatales frente a la violencia y el nivel de igualdad de género; y aquellos regímenes que tienden, en la mayoría de los casos, a buscar soluciones violentas para los conflictos domésticos o internacionales, son los autoritarios. Por otro lado, en cuanto estabilidad política o estatal, Bowen y Nielsen (2020), consideran que los países que poseen menores ciclos de crisis políticas, económicas o sociales y que poseen tanto bastante institucionalidad y legitimidad en la población, son aquellos Estados que generan mejores condiciones de vida/calidad de vida pues poseen tanto el contexto como las condiciones para velar por cerrar brechas y brindar prosperidad para sus ciudadanos y ciudadanas. 
+
+No cabe duda que tanto en regímenes democráticos como autoritarios, los índices de desigualdad de género son persistentes aún en pleno siglo XXI. Como todos sabemos, la problemática de la exclusión de la mujer y su relegación al ámbito privado no es una cuestión reciente ni nueva. Históricamente las mujeres se han visto minimizadas y violentadas en varios aspectos de sus vidas gracias a las creencias y narrativas misóginas y patriarcales que las privan de desarrollo, libertades y derechos. Afortunadamente, gracias a los movimientos pro derechos de las mujeres (ejemplo: feminismo y sus distintas olas) hoy en día muchas de las barreras del pasado no se mantienen y se están haciendo muchos esfuerzos para minimizarlas. Empero, esto no quita que aún haya muchos retos y obstáculos que superar para que cada vez tengamos sociedades más paritarias. 
+
+A lo largo del tiempo, se puede evidenciar que el tema de la mujer también ha ido cobrando relevancia a nivel internacional. Por ello, los Estados y los organismos internacionales han comenzado a tomar cartas en el asunto para generar mejoras respecto al tema. Si bien, a partir de los años noventa se puede observar un gran avance en el tema de desigualdad de género, ya desde 1930 se puede evidenciar los primeros intentos de creación de instancias regionales que velaban por la obtención de derechos políticos y civiles (derecho a voto y ciudadanía) para las mujeres latinoamericanas: la Comisión Interamericana de Mujeres de la OEA (Mones, 2004). Posteriormente, en la década de los sesenta, setentas y ochentas, a través del marco de la ONU, se comienza a priorizar la creación de medidas que comprometían a los Estados a acelerar el logro de derechos sociales y políticos de las mujeres. El resultado de estos intentos de búsqueda inclusión de la mujer a los campos en los que estuvo relegada por mucho tiempo, fueron: La Convención para la eliminación de todas las formas de discriminación contra la Mujer (1979), y la Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer (1984). 
+
+En la actualidad, la reducción de la violencia y desigualdades de género, siguen siendo uno de los principales puntos tanto de la agenda internacional -a decir verdad, es uno de los puntos principales de los Objetivos de Desarrollo Sostenible, 2030- como de las nacionales debido a que sigue siendo una de las problemáticas más latentes en todas las sociedades. Si bien existen muchas entidades internacionales, programas, tratados y organizaciones que brindan oportunidades a los Estados para buscar mejorar respecto a este tema; dependerá de cada uno aceptar dichas “ventanas de oportunidad” y ser constantes en la creación de políticas públicas que hagan a su país un lugar cada vez más justo e igualitario. Finalmente, por todo lo visto podríamos decir que algunos de los factores que podrían influenciar directamente con el grado de las disparidades de género serían el tipo de régimen estatal (democrático o autoritario); la atención que este le da a la defensa de derechos humanos y la buena calidad de vida; la estabilidad política o estatal y la forma en cómo estos enfrentan sus conflictos doméstico e internacionales; y la forma en cómo aprovechan las oportunidades internacionales que se dan para generar programas y políticas públicas que busquen erradicar la violencia y desigualdad de género.
+
+En relación a ello, el objetivo general del presente reporte es poder identificar bajo qué escenarios y contextos sociopolíticos, la igualdad de género se ve más o menos perjudicada. De esta manera, a partir del análisis estadístico podremos verificar si efectivamente un país bajo un régimen autoritario, con constante inestabilidad política y en condiciones que vulneran el desarrollo humano, tendrá un nivel de desigualdad alto, o por el contrario, comprobar que estas variables realmente no influyen en las condiciones en las que una mujer puede vivir. Bajo esta línea, se busca además identificar si el tipo de régimen político afecta al proyecto de vida de una mujer (pues es más susceptible a permitir a que se desarrolle una desigualdad entre hombres y mujeres, colocando a estas últimas en desventaja). Por otro lado, se tiene como objetivo identificar si las constantes crisis políticas y socioeconómicas que llevan a un Estado a la inestabilidad, son causantes de generar altos índices de desigualdad de género, lo cual nos ayudaría a comprobar que la inestabilidad política puede afectar de una manera distinta a los ciudadanos según su género. Por último, se busca plantear escenarios favorables para que las mujeres puedan desarrollarse y no tengan porqué vivir bajo un sistema desigual que las coloca en desventaja sobre los hombres, de esta manera, se tiene la intención de apuntar a una sociedad con igualdad de oportunidades y derechos para todas y todos.
+
+Debido a lo último expuesto, nuestra pregunta de investigación para el presente trabajo girará en torno a cómo los factores relacionados al tipo de gobierno, la estabilidad de un país y el nivel de desarrollo humano afectan al nivel de desigualdad de género de los Estados. Para responder dicha pregunta de investigación, proponemos la siguiente hipótesis: los países con tendencias autoritarias, constante inestabilidad y bajos niveles de Desarrollo Humano presentan un alto índice de desigualdad de género.
+
+Para llevar a cabo dicha investigación, el principal componente empírico empleado es la base de datos proporcionada por The Womanstats Project  Este proyecto tiene como objetivo recopilar bases de datos relacionadas a variables relacionadas con la seguridad, la estabilidad y las situaciones que enfrentan las mujeres a nivel mundial (tráfico sexual, violaciones, etc.). De esta manera, en el repositorio de datos se pueden encontrar casi 350 variables para 176 países, con poblaciones mayores a 200.000 personas, obtenidas a partir de estudios estadísticos recopilados. Asimismo, estas variables se encuentran agrupadas en nueve aspectos relacionados a los temas ya mencionados y se dividen a partir de las siguientes temáticas sobre la mujer: seguridad física, seguridad económica, seguridad legal, seguridad en la comunidad, seguridad y familia, seguridad para la maternidad, inversión en la mujer, seguridad de la mujer en el Estado y libertad de expresión de la mujer. Muchas de estas variables han sido transformadas a escalas que demuestran la situación de las mujeres en materia de seguridad, así como el comportamiento de los Estados. Como se ha mencionado estos datos provienen de diferentes trabajos de investigación, así como reportes gubernamentales o de ONG´s, artículos, etc. (Womanstats s/f).
+
+
+
+# Meotodología
+
+Por otro lado, la metodología se basa en la técnica de análisis factorial exploratorio por factor común. Como menciona Watkins ( 2020 ), este tipo de análisis busca encontrar todas las correlaciones posibles entre las variables observadas numéricas a usar. De esta manera, logra reducir la dimensionalidad de los datos a partir de la varianza común entre las variables observadas, generando así nuevas variables latentes llamadas factores. El uso de este tipo de análisis ha sido relevante para el desarrollo de la investigación no sólo porque los datos a analizar son de carácter numérico, si no también porque se intenta identificar factores que puedan influenciar en el nivel de desigualdad que un país pueda presentar. Así, estos factores creados a partir de las variables usadas serán usados como variables dependientes que nos ayudarán a conocer si realmente estos afectan o no a la variable independiente en cuestión. De esta manera, podremos comprobar si nuestra hipótesis es realmente válida o existen otros factores que logran explicar mejor la desigualdad de género en cada Estado, el cual es nuestra unidad de análisis para esta investigación.
+
+En el presente trabajo se tuvo como resultado la reducción de nuestras variables en tres grupos, los cuales terminaron distribuyendose de la siguiente manera. El primer factor (Economía y Desarrollo Humano) estuvo compuesto por las siguientes variables relacionadas a aspectos necesarios para una adecuada calidad de vida, y por tanto, un alto nivel de desarrollo humano: Prosperidad económica, Libertad económica, Declive Económico, Años de Educación, Acceso a facilidades sanitarias, Expectativa de Vida, Propiedad Privada y Desarrollo Humano. En el segundo factor (Inestabilidad Política y Democracia), relacionado a las características del gobierno, se encuentran las variables de Terror Político, Fragilidad Estado, Legitimidad Estatal, Inestabilidad Política, Cultura Democrática, Libertad de Prensa, Libertad Civil y Mujeres en el Gobierno. Por último, nuestro tercer factor (Inseguridad y Paz Estatal) resultante, relacionado a la violencia en el país, se encuentras las siguientes variables: Conflicto Interno, Terrorismo. Para lograr estos resultados se tomarán en cuenta los procedimientos para el análisis factorial exploratorio. Primero, se revisó la matriz de correlaciones para observar de manera gráfica cuáles parejas de variables presentan una mayor correlación entre las demás, así los coeficientes de correlación más cercanos a 1 representaban una mayor relación entre las variables, mientras que, los más cercanos a 0, una relación inexistente. Continuando con el análisis, se realizó la prueba de  KMO (prueba de adecuación de Kaiser - Meyer - Olkin), en donde se comprueba que la relación entre las variables es alta en una escala del 0 al 1. Para esta investigación por ejemplo, se tuvo como resultado un 0.91 lo que indicó que el test es bastante bueno y que, por tanto, se puede seguir con el análisis factorial. Luego de ello, se procedió a realizar la prueba de Barlett, la cual devuelve un resultado entre “verdadero” y “falso”. Lo que se buscó a partir de esta prueba, fue obtener un resultado “falso” que nos indicase que sí se puede aplicar el análisis factorial al tener variables observables correlacionadas. Cuarto, se identificó el número de factores a emplear y se logró identificar qué variables se agruparon en cada factor. Como se mencionó anteriormente, el número de factores usados fueron tres y las variables fueron distribuidas según el factor al que pertenecen. Por último, ya que en el presente trabajo se quiso hallar el nivel de desigualdad de género y su correlación con los niveles de desarrollo económico y humano, regímenes políticos democráticos, y seguridad y paz estatal; consideramos necesario, para un mejor análisis, convertir el índice de desigualdad de género de nuestra base de datos en una variable ordinal. De esta manera, se pudo hacer una mejor interpretación de los resultados del modelo de regresión y una mejor clasificación según niveles de desigualdad de los países. Por ello, se convirtió la variable dependiente a una escala del 0 al 100 para ser dividida en cuatro niveles: muy baja desigualdad de género, baja desigualdad de género, alta desigualdad de género y muy alta desigualdad de género.
+
+
+
+# **Variables elegidas**
+- Variable dependiente (VD): índice de desigualdad de género
+- Variables independientes (VI): 
+a. VI relacionadas a seguridad y paz estatal:
+    1.	TerrorPolitico: terror político
+    2.	ConflictoInterno: conflicto interno	
+    3.	Terrorismo: niveles de terrorismo	
+    
+    
+b. VI relacionadas a economía:
+    4.	ProsperidadEcon: prosperidad económica	
+    5.	LibertadEcon: libertades económicas	
+    6.	DecliveEcon: declive económico	
+    7.	DerechosProp: derechos de propiedad	
+    8.	Desempleo: % de desempleo
+    
+    
+c. VI relacionadas a desarrollo humano integral y acceso a servicios básicos: 
+    9.	AñosdeEducacion: promedio de años de escolarización
+    10.	AccesoFacilidadesSanitarias: acceso a facilidades sanitarias de calidad	
+    11.	ExpectativadeVida: promedio de expectativa de vida	
+    12.	GastoSalud: % de gasto en temas de salud de acuerdo al PBI	
+    13.	HambreGlobal: índice de hambre/hambruna	
+    14.	AccesoAgua: acceso a fuentes de agua potable
+    15. DesarrolloHumano: índice de desarrollo humano
+    
+d. VI relacionadas a Estabilidad política y democracia
+    16.	FragilidadEstado: fragilidad estatal	
+    17.	LegitimidadEstatal: aceptación del gobierno 	
+    18.	InestabilidadPolt: inestabilidad política	
+    19.	EfectividadGobierno: efectividad del gobierno	
+    20.	CullturaDemocratica: cultura democrática	
+    21.	PolSys2013: sistema político	
+    22.	PropiedadPriv: índice de propiedad privada	
+    23.	LibertadPrensa: libertad de prensa	
+    24.	LibertadCivil: libertades civiles o ciudadanos	
+    25.	MujerGob: participación de las mujeres en el gobierno	
+    
+
+# **Alistando la base de datos**
+```{r}
+library(rio)
+library(dplyr)
+library(factoextra)
+library(NbClust)
+library(tidyr)
+
+#Importando la base de Datos
+base = import("Book1.xlsx")
+
+#Subset
+base1 = select(base, "Country", "TerrorPolitico", "ConflictoInterno", "Terrorismo", "ProsperidadEcon", "LibertadEcon", "DecliveEcon", "Desempleo", "AñosdeEducacion", "AccesoFacilidadesSanitarias", "ExpectativadeVida", "GastoSalud", "FragilidadEstado", "LegitimidadEstatal", "InestabilidadPolt", "CullturaDemocratica", "PropiedadPriv", "LibertadPrensa", "LibertadCivil", "MujerGob", "DesarrolloHumano")
+
+#Quitando la primera columna
+rownames(base1) = base1[,1]
+base1 = base1[,-1]
+str(base1)
+```
+
+## **Inspección del subset**
+```{r}
+summary(base1)
+```
+
+## **Limpiando NAs**
+```{r}
+base1$TerrorPolitico[is.na(base1$TerrorPolitico)] <- mean(base1$TerrorPolitico,na.rm=TRUE)
+base1$ConflictoInterno[is.na(base1$ConflictoInterno)] <- mean(base1$ConflictoInterno,na.rm=TRUE)
+base1$Terrorismo[is.na(base1$Terrorismo)] <- mean(base1$Terrorismo,na.rm=TRUE)
+base1$ProsperidadEcon[is.na(base1$ProsperidadEcon)] <- mean(base1$ProsperidadEcon,na.rm=TRUE)
+base1$LibertadEcon[is.na(base1$LibertadEcon)] <- mean(base1$LibertadEcon,na.rm=TRUE)
+base1$DecliveEcon[is.na(base1$DecliveEcon)] <- mean(base1$DecliveEcon,na.rm=TRUE)
+base1$Desempleo[is.na(base1$Desempleo)] <- mean(base1$Desempleo,na.rm=TRUE)
+base1$AñosdeEducacion[is.na(base1$AñosdeEducacion)] <- mean(base1$AñosdeEducacion,na.rm=TRUE)
+base1$AccesoFacilidadesSanitarias[is.na(base1$AccesoFacilidadesSanitarias)] <- mean(base1$AccesoFacilidadesSanitarias,na.rm=TRUE)
+base1$ExpectativadeVida[is.na(base1$ExpectativadeVida)] <- mean(base1$ExpectativadeVida,na.rm=TRUE)
+base1$GastoSalud[is.na(base1$GastoSalud)] <- mean(base1$GastoSalud,na.rm=TRUE)
+base1$FragilidadEstado[is.na(base1$FragilidadEstado)] <- mean(base1$FragilidadEstado,na.rm=TRUE)
+base1$LegitimidadEstatal[is.na(base1$LegitimidadEstatal)] <- mean(base1$LegitimidadEstatal,na.rm=TRUE)
+base1$InestabilidadPolt[is.na(base1$InestabilidadPolt)] <- mean(base1$InestabilidadPolt,na.rm=TRUE)
+base1$CullturaDemocratica[is.na(base1$CullturaDemocratica)] <- mean(base1$CullturaDemocratica,na.rm=TRUE)
+base1$PropiedadPriv[is.na(base1$PropiedadPriv)] <- mean(base1$PropiedadPriv,na.rm=TRUE)
+base1$LibertadPrensa[is.na(base1$LibertadPrensa)] <- mean(base1$LibertadPrensa,na.rm=TRUE)
+base1$LibertadCivil[is.na(base1$LibertadCivil)] <- mean(base1$LibertadCivil,na.rm=TRUE)
+base1$MujerGob[is.na(base1$MujerGob)] <- mean(base1$MujerGob,na.rm=TRUE)
+base1$DesarrolloHumano[is.na(base1$DesarrolloHumano)] <- mean(base1$DesarrolloHumano,na.rm=TRUE)
+
+summary(base1)
+```
+
+
+**Comentario**: ya que todas son variables numéricas no hay necesidad de aplicar "as.numeric" a ninguna variable, por otro lado, al haber reemplazado con la media de cada variable los NAs que estas contenían se logró eliminar todos los NAs sin que haya cambios en las medidas de tendencia central.
+
+
+# **Matriz de Correlación**
+```{r}
+library(polycor)
+corMatrix=polycor::hetcor(base1)$correlations
+corMatrix
+```
+
+## **Gráfico de la Matrix**
+```{r}
+library(ggcorrplot)
+ggcorrplot(corMatrix,
+           p.mat = cor_pmat(corMatrix),
+           insig = "blank")
+```
+
+
+# **Prueba KMO**
+```{r}
+library(psych)
+KMO(corMatrix)
+```
+
+
+**Interpretación**: según el Overall MSA, la matriz presentada es válida ya que obtiene un valor mayor a 0.5.
+
+# **Prueba de Bartlett**
+```{r}
+cortest.bartlett(corMatrix,n=nrow(base1))$p.value>0.05
+```
+
+
+**Interpretación**: la prueba de Barlett sale negativa, por tanto, la matriz de correlación realizada es válida y no es una matriz de identidad.
+
+
+
+# **Contabilizando cuántos factores se utilizarán**
+```{r}
+fa.parallel(corMatrix, fm="pa", fa="fa", main = "Scree Plot")
+```
+
+**Interpretación**: Según R, lo óptimo sería que se realice 2 grupos de factores. 
+
+
+## **Otra forma de calcular los factores**
+```{r}
+eigen<-eigen(cor(base1, use="complete"))
+eigen$values
+```
+
+
+**Interpretación**: En la presente prueba se tiene que contar las dimensiones que posean valores mayores a 1 para saber cuántos factores realizar. Como se observa, solo hay 3 dimensiones con valores mayores a 1; por tanto, esta será la cantidad óptima final de factores ha crear.
+
+
+
+# **Creación de los factores**
+```{r}
+library(GPArotation)
+factorial <- fa(base1,nfactors = 3,rotate = "varimax",fm="minres")
+```
+
+
+
+## **Gráfico de factores**
+```{r}
+fa.diagram(factorial)
+```
+
+
+# **Visualizando la composición de cada factor**
+```{r}
+print(factorial$loadings,cutoff = 0.5)
+```
+*1er factor*: Prosperidad económica, Libertad económica, Declive Económico, Años de Educación, Acceso a facilidades santitarias, Expectatica de Vida, Propiedad Privada y Desarrollo Humano.
+
+
+*2do factor*: Terror Político, Fragilidad Estado, Legitimidad Estatal, Inestabilidad Política, Cultura Democrática, Libertad de Prensa, Libertad Civil y Mujeres en el Gobierno.
+
+
+*3er factor*: Conflicto Interno, Terrorismo
+
+
+
+# **Análisis comunalidad, complejidad y singularidad**
+```{r}
+sort(factorial$communality)
+```
+
+
+**Interpretación**: La variable "Desarrollo Humano" tiene mayor porcentaje de varianza común. Es decir, es la variable que es más común en los componentes.
+
+
+```{r}
+sort(factorial$complexity)
+```
+
+
+**Interpretación**: "TerrorPolitico" es la variable que ha aportado a muchos componentes.
+
+
+```{r}
+sort(factorial$uniquenesses)
+```
+
+
+**Interpretación**: "Desempleo" es la variable que tiene un factor único más grande.
+
+
+
+## **Agreango los factores al subset**
+```{r}
+#Creando un dataset
+factorial_casos<-as.data.frame(factorial$scores)
+head(factorial_casos)
+summary(factorial_casos)
+```
+
+```{r}
+#Agregándolas al subset
+base1$DesarrolloEconómicoyHumano <- factorial_casos$MR1
+base1$InestabilidadPoltyDemocracia<- factorial_casos$MR2
+base1$InseguridadyPazEstatal<- factorial_casos$MR3
+```
+
+
+## **Estandarizando e inspeccionando las nuevas variables latentes**
+```{r}
+library(BBmisc)
+base1$DesarrolloEconómicoyHumano = normalize(base1$DesarrolloEconómicoyHumano, 
+                                        method = "range", 
+                                        margin=2, # by column
+                                        range = c(0, 100))
+
+summary(base1$DesarrolloEconómicoyHumano)
+```
+
+**Interpretación:** Debido a que el presente factor poseía variables relacionadas a Prosperidad económica, Libertad económica, Años de Educación, Expectatica de Vida, Propiedad Privada y Desarrollo Humano. Podemos decir que en promedio el 57.37% de la población posee niveles adecuados en cuanto política y desarrollo humano. De hecho, hablando específicamente sobre la pobreza en el mundo, se encuentra, tras realizar una pequeña investigación a parte, que el 70% de las personas con bajas condiciones económicas son mujeres (Amnistía Internacional, 2020). Sin duda, esto demuestra que existe pues una "feminización de la pobreza" ya que son las mujeres y niñas las más propensas a sufrir no solo de desempleo, sino también de pobreza, condiciones laborales precarias y
+explotación.
+
+https://www.es.amnesty.org/en-que-estamos/blog/historia/articulo/la-pobreza-tiene-genero/
+
+
+```{r}
+base1$InestabilidadPoltyDemocracia = normalize(base1$InestabilidadPoltyDemocracia, 
+                                        method = "range", 
+                                        margin=2, # by column
+                                        range = c(0, 100))
+
+summary(base1$InestabilidadPoltyDemocracia)
+```
+
+**Interpretación:** En cuanto la nueva variable latente de Estabilidad política y democracia, se encuentra que solo 45.67% de los países poseen cualidades de democracias estables, sin ciclos de crisis políticas y gobiernos que trabajen adecuadamente para la mejoría de la vida de los ciudadanos. Sin duda, en países con constantes cambios de gobierno, golpes de Estado, cierres de Parlamento o cambio de gabinetes de ministros, es imposible generar políticas, leyes y proyectos estables que luchen por reducir las brechas de desigualdad de género. Esto sobre todo porque el trabajo que el Estado puede hacer, se ve constantemente fragmentado o con constantes interrupciones.
+
+
+
+```{r}
+base1$IneguridadyPazEstatal = normalize(base1$InseguridadyPazEstatal, 
+                                        method = "range", 
+                                        margin=2, # by column
+                                        range = c(0, 100))
+
+summary(base1$InseguridadyPazEstatal)
+```
+
+
+**Interpretación:** Debido a que el presente factor poseía variables relacionadas a terrorismo e inseguridad estatal, podemos decir que en promedio el 44% de los países del mundo poseen características inestables o bajas tanto en su seguridad estatal como paz en sus países. Sin duda, este tipo de contextos ponen en constante situación de vulnerabilidad e incertidumbre a toda la población, pero de manera especial a las mujeres. Tal como ONU indica (2014), las niñas y mujeres que viven en contextos bélicos, de incertidumbre política o regímenes autoritarios, tienden a ser oprimidas y violentadas. Asimismo, cuentan con menos recursos para protegerse y escapar de estas situaciones; las oportunidades de vivir en condiciones dignas y poder desarrollarse integralmente son bajas o nulas (OXFAM, 2017). Algunos de los países que poseen aún este tipo de situaciones son los siguientes: Congo, Uganda, Sierra Leona, Irak, Pakistán, etc.
+
+https://oxfamilibrary.openrepository.com/bitstream/handle/10546/620690/bp-women-in-conflict-zones-290319-es.pdf
+
+https://www.unwomen.org/es/news/in-focus/end-violence-against-women/2014/conflict
+
+
+
+# **Modelo de regresión ordinal**
+(*)Ya que en el presente trabajo queremos hallar el nivel de desigualdad de género y su correlación con los niveles de desarrollo económico y humano, regímenes políticos democráticos, y seguridad y paz estatal; consideramos necesario, para un mejor análisis, convertir el índice de desigualdad de género de nuestra base de datos en una variable ordinal. De esta manera, se  podrá hacer una mejor interpretación de los resultados del modelo de regresión y ver una clasificación según niveles de desigualdad de los países. Por ello, nuestra variable dependiente será convertida a una escala del 0 al 100 y luego será dividida en 4: muy baja desigualdad de género, baja desigualdad de género, alta desigualdad de género y muy alta desigualdad de género.
+
+## **Alistando la variable dependiente**
+```{r}
+#Agregando la Variable Dependiente al subset
+base1$DesigualdadGenero = base$GII2015
+
+#Quitándole NAs
+base1$DesigualdadGenero[is.na(base1$DesigualdadGenero)] <- mean(base1$DesigualdadGenero,na.rm=TRUE)
+
+#Estandarizando para hacer más fácil el análisis
+base1$DesigualdadGenero = normalize(base1$DesigualdadGenero, 
+                                        method = "range", 
+                                        margin=2, # by column
+                                        range = c(0, 100))
+
+#Recodificando la variable dependiente
+base1$Desigualdad_ord = cut(base1$DesigualdadGenero, breaks = c(0,10,40,70,100), include.lowest = T, ordered_result = T, labels = c("Muy Baja Desigualdad de Género", "Baja Desigualdad de Género","Alta Desigualdad de Género", "Muy Alta Desigualdad de Género"))
+table(base1$Desigualdad_ord)
+```
+
+
+#**Modelo**
+```{r}
+library(MASS)
+modelo <- polr(Desigualdad_ord ~ DesarrolloEconómicoyHumano + InestabilidadPoltyDemocracia + InseguridadyPazEstatal, data = base1, Hess=T)
+summary(modelo)
+
+```
+ 
+ 
+## **a. Sacando el p-value**
+## **i. Sacando el t-value**
+```{r}
+summary_table <- coef(summary(modelo))
+summary_table
+```
+  
+## **ii. Creando el objeto del p-value**
+```{r}
+pval <- pnorm(abs(summary_table[, "t value"]),lower.tail = FALSE)* 2
+pval
+```
+
+##  **iii. Agregando el p-value a la tabla**
+```{r}
+summary_table <- cbind(summary_table, "p value" = pval)
+summary_table
+```
+**Interpretación**: ya que tenemos el p-value de las variable independientes, podemos decir que estas sí aportan al modelo puesto que las 3 poseen p-values menores a 0.05.
+
+# **Calculando e interpretando coeficientes**
+```{r}
+exp(coef(modelo))
+```
+
+## **a) Interpretación de VI - Economía y Desarrollo humano:** 
+
+```{r}
+(1-0.8791966)*100
+
+```
+
+**Interpretación**: si es que el porcentaje de economía y desarrollo humano de un país aumenta en 1, entonces la desigualdad de género disminuye 12.08%.
+
+
+## **b) Interpretación de VI - Inestabilidad Política y Democracia:** 
+
+```{r}
+(1.0522358 - 1)*100
+```
+
+**Interpretación**: si es que el porcentaje de Inestabilidad Política y Democracia aumenta en 1, entonces la desigualdad de género aumenta en 5.2%.
+
+
+## **c) Interpretación VI - Desempleo1:**
+
+```{r}
+(1.3416667 - 1)*100
+```
+**Interpretación**: si es que el porcentaje de Inseguridad y Paz Estatal, o en otras palabras: conflictos bélicos, aumenta en 1, entonces la desigualdad de género aumenta en 34.2%.
+
+
+# *R2 del modelo*
+```{r}
+library(DescTools)
+PseudoR2(modelo, which = c("Nagelkerke"))
+```
+
+
+Interpretación: según el modelo de regresión ordinal, nuestras variables independientes "EconomíayDesarrolloHumano, Inestabilidad Política e InseguridadEstatal y Desempleo1", predicen el 74.9% de la desigualdad de género que existe en cada país. Sin duda, las variables independientes elegidas ayudan a predecir gran porcentaje de nuestra variable dependiente.
+
+
+# **Mapa**
+Agregando el isocode al subset
+```{r}
+base1$isocod = base$cod
+```
+
+```{r}
+library(ggplot2)
+library(rworldmap)
+library(rgdal)
+joinData <- joinCountryData2Map( base1,
+                                 joinCode = "ISO_A3",
+                                 nameJoinColumn = "isocod")
+```
+
+## **Ejecutando mapa**
+```{r}
+theMap <- mapCountryData( joinData, nameColumnToPlot="DesigualdadGenero",mapTitle="Desigualdad de Género en el Mundo", addLegend=TRUE )
+```
+
+# **Hallazgos**
+
+De manera general, se puede decir que luego del presente análisis estadístico se obtuvo que el nivel de desigualdad de género en un determinado país es influenciado por variables que están relacionadas a la estabilidad de un gobierno, características de un Estado y al Desarrollo Humano. Los países que tienen un régimen de gobierno más democrático y estable, presentaron una menor desigualdad. Estos se encuentran especialmente en los países del hemisferio Norte y Oceanía como Finlandia, Nueva Zelanda, Noruega, entre otros. Mientras que los Estados del continente africano y del medio oriente fueron los que presentaron mayores niveles de desigualdad. Asimismo, a partir del análisis  también se logró encontrar los siguientes hallazgos:
+
+
+En primer lugar, en cuanto la nueva variable latente de Estabilidad política y democracia, se encuentra que solo 45.67% de los países poseen cualidades de democracias estables, sin ciclos de crisis políticas y gobiernos que trabajan adecuadamente para la mejoría de la vida de los ciudadanos. Sin duda, en países con constantes cambios de gobierno, golpes de Estado, cierres de Parlamento o cambio de gabinetes de ministros, es imposible generar políticas, leyes y proyectos estables que luchan por reducir las brechas de desigualdad de género. Esto sobre todo porque el trabajo que el Estado puede hacer, se ve constantemente fragmentado o con constantes interrupciones. En segundo lugar, respecto al segundo factor compuesto por variables relacionadas a la violencia en un país como inseguridad estatal y terrorismo, se puede señalar que en promedio el 44% de los países del mundo poseen características inestables o bajas tanto en su seguridad estatal como paz en sus países. Sin duda, este tipo de contextos ponen en constante situación de vulnerabilidad e incertidumbre a toda la población, pero de manera especial a las mujeres. Tal como ONU indicó (2014), las niñas y mujeres que viven en contextos bélicos, de incertidumbre política o regímenes autoritarios, tienden a ser reprimidas y violentadas. Asimismo, cuentan con menos recursos para protegerse y escapar de estas situaciones; las oportunidades de vivir en condiciones dignas y poder desarrollarse integralmente son bajas o nulas (OXFAM, 2017). Algunos de los países que poseen aún este tipo de situaciones son los siguientes: Congo, Uganda, Sierra Leona, Irak, Pakistán, etc.
+
+Por otro lado, se logró cuantificar que si el porcentaje del factor economía y desarrollo humano de un país aumenta en 1, entonces la desigualdad de género disminuye 12.08%. Por el contrario, si el factor sobre Inestabilidad Política y Democracia aumenta en 1, entonces la desigualdad de género aumenta en 5.2%. De igual manera, si el porcentaje de Inseguridad y Paz Estatal, o en otras palabras: conflictos bélicos, aumenta en 1, entonces la desigualdad de género aumenta en 34.2%.
+
+En cuanto a los niveles de desigualdad de género en el mundo, se encontró que la mayoría de países (107) presentan una alta y muy alta desigualdad de género. Siendo 80 países que encajan en la primera clasificación y 27, en la segunda. Por el contrario, sólo 20 países de los 176 de la muestra poseen una muy baja desigualdad de género. De esta manera, se puede observar que esta problemática sigue siendo un punto pendiente en la agenda de muchos países que debe ser arreglado para poder garantizar el respeto por los derechos de las mujeres y su libre desarrollo. Los países del hemisferio norte y del continente de Oceanía (Nueva Zelanda, Australia, etc.), son los que más destacan por poseer muy bajos o bajos niveles de desigualdad de género. En el caso de Latinoamérica y Centroamérica se identificó que poseen niveles altos de desigualdad de género sobre todo países como Bolivia, Perú, Venezuela, Ecuador, Colombia y Brasil. Asimismo, a comparación del resto de Europa, que posee niveles bajos o muy bajos de desigualdad, Rusia posee un nivel alto. Finalmente, el continente que posee los niveles más altos de desigualdad son el de África y Medio Oriente. Como se ha mencionado, los países de este continente presentan características inestables con un alto nivel de inseguridad y violencia que ponen en vulnerabilidad la protección de los derechos de las mujeres. 
+
+Por último, gracias a los hallazgos encontrados podemos identificar qué escenarios son los que exponen y facilitan que en las sociedades de hoy se desarrollen altos índices de desigualdad de género. Así, como se ha podido observar, contextos de violencia estatal y de constante inseguridad, gobiernos con bajos valores democráticos y con características que perjudican al nivel de Desarrollo Humano como poca libertad económica o la falta de educación, entre otros, son los que han presentado mayores niveles de desigualdad en el mundo. De esta manera, se puede decir que la igualdad de género no es un problema independiente a las dinámicas que ocurren dentro de un Estado y el comportamiento de este. Por el contrario, el Estado al ser el principal responsable sobre la protección de los derechos humanos de sus ciudadanos, debe brindar el marco ideal para que estos puedan hacer un goce adecuado de sus libertades y derechos. Sin embargo, como se ha mencionado anteriormente, si un país se encuentra en constantes crisis tanto políticas como económicas, no proporciona servicios básicos y fomenta la libertad económica, y presenta conflictos que ponen en riesgo la seguridad de las personas, será casi imposible que las mujeres y el resto de ciudadanos puedan desarrollar un proyecto de vida con libertad que le permitan hacer uso de sus derechos fundamentales. 
+
+
+
+# **Conclusiones**
+
+
+Es innegable la realidad que vivimos las mujeres producto de la desigualdad de género, desde no poder ascender a puestos más altos en el trabajo o ni siquiera lograr terminar nuestra educación por tener que cumplir estereotipos que nos encierran en la esfera privada. Si bien, hay muchos países que en esta materia han logrado sustanciales cambios y mantienen una sociedad en donde todos tienen las mismas oportunidades y los mismos derechos, aún queda un largo camino por recorrer. Es alarmante ver las cifras ofrecidas por distintas organizaciones que reflejan esta dura realidad, por ello, es determinante enfocarnos en las soluciones para lograr erradicar los problemas de género en el mundo. Bajo esta línea consideramos que el trabajo expuesto ha sido una forma de ayudar a empezar a identificar qué escenarios y circunstancias afectan a los niveles de desigualdad en el mundo. Para que, de esta manera, se pueda trabajar en ello desde el ámbito estatal y social. Asimismo, sostenemos que el análisis presentado y los factores encontrados aportarán para las investigaciones en torno a las causas de la desigualdad de un determinado país ya que, como se ha podido observar, nuestra data presenta los resultados de 176 países de todos los continentes; por lo que, sería de gran ayuda para poder analizar cómo vamos en estos temas a nivel global o regional. 
+
+Si bien el fenómeno de la desigualdad de género es uno amplio que para poder entenderlo se necesita abarcar diferentes puntos de nuestra sociedad y el Estado, creemos que el presente análisis ha logrado evidenciar, desde una perspectiva más estatal, los factores que lograrían explicar el porqué de las diferencias en los niveles de desigualdad en el mundo. Sin embargo, es importante ser conscientes que este tipo de problemáticas que afectan a las mujeres, deben ser analizadas tomando en cuenta una perspectiva integral por lo que no se puede afirmar que sólo los factores representados explicarían por completo dicho fenómeno. Encontrar factores que provengan desde la sociedad como los estereotipos de género por ejemplo o la tolerancia que las personas tienen frente la violencia de género, también sería de gran ayuda para lograr entender por qué en ciertos países hay más igualdad que otros. Por ello, apostamos por análisis estadísticos que puedan ofrecernos evidencia empírica de lo mencionado, proporcionando escalas de medición por ejemplo a estas percepciones de la sociedad. La suma de todo ello será de gran utilidad para poder identificar los elementos a eliminar en nuestra sociedad para un futuro mejor en donde todas y todos crezcamos en igualdad de condiciones.
+
+
+
+# **Bibliografía** 
+
+
+BBC Mundo (2016). Mariana Martinez: “Barómetro económico: la mujer y la desigualdad” http://news.bbc.co.uk/hi/spanish/business/barometro_economico/newsid_4754000/4754380.stm
+
+
+Caprioli, M (2000). “Gendered Conflict.” Journal of Peace Research 37: 51–68. ——. “Gender Equality and State Aggression: The Impact of Domestic Gender Equality on State First Use of Force.” International Interactions 29, no. 3 (2003): 195–214.
+
+
+HUDSON, V. M., BOWEN, D. L., & NIELSEN, P. L. (2020). The First Political Order: How Sex Shapes Governance and National Security Worldwide. Columbia University Press. http://www.jstor.org/stable/10.7312/huds19466
+
+
+Mones, B (2004). “La inclusión de las mujeres y la igualdad de género: nuevos desafíos para la modernización del Estado” en IX Congreso Internacional del CLAD sobre la Reforma del Estado y de la Administración Pública, Madrid, España, 2 – 5 Nov. 2004 http://americalatinagenera.org/newsite/images/cdr-documents/publicaciones/doc_444_0050134.pdf
+
+
+
+Mukhopadhyay, M (2007). Justicia de género, ciudadanía y desarrollo. Centro Internacional de Investigaciones para el desarrollo. Tercera Edición, India, New Delhi. https://idl-bnc-idrc.dspacedirect.org/handle/10625/34957
+
+
+Sahui, M (2015). La igualdad en la medida de la calidad democrática - Una revisión crítica de la propuesta de Leonardo Morlino. Revista Dossier - 7 de mayo de 2015: pp. 33 - 55 https://www.redalyc.org/pdf/421/42146505010.pdf
+
+
+The WomanStatsProject (2019). Base de Datos sobre la situación de la mujer 2019. Brigham Young College, Utah. Revisado: 21 de agosto 2021 https://www.womanstats.org/new/
+Wood, Reed, and Mark Ramirez (2018). “Exploring the Microfoundations of the Gender Equality Peace Hypothesis.” International Studies Review 20, no. 3: 345–367. https://doi.org /10.1093/isr/vix016.
+
+
+
+World Economic Forum (2020). Global Gender Gap Report : “Informe Final de la brecha de desigualdad de género en el mundo 2020”. Revisado: 3 de setiembre 2021 https://www.weforum.org/reports/gender-gap-2020-report-100-years-pay-equality
+
+
+Watkins, M . (2020). A Step-by-Step Guide to Exploratory Factor Analysis with R and RStudio. pp. 74-122
+
+
+
+
+
+
+
+
